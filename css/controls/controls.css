@@ -1,0 +1,39 @@
+/* 
+    Document   : controls
+    Created on : May 17, 2012, 4:45:41 PM
+    Author     : Chemer
+*/
+
+a.logout:link, a.logout:visited, a.logout:active {
+    color: white;
+    float: right;
+    margin-right: 100px;
+}
+
+a.button:link, a.button:visited, a.button:active {
+    border: 1px #707070 solid;
+    width: auto;
+    height: 18px;
+    overflow: hidden;
+    padding-left: 5px; padding-right: 5px;
+    background-image: url(button.png);
+    background-repeat: repeat-x;
+    border-radius: 3px 3px;
+}
+
+a.button:hover {
+    background-image: url(button_over.png);
+}
+
+#chemer_statusBar {
+    text-align: center;
+}
+
+/******************  Overloaded jquery   **************************************/
+
+.ui-dialog .ui-dialog-titlebar {
+    font-size: 12px;
+}
+.ui-dialog .ui-dialog-content {
+    font-size: 12px;    
+}

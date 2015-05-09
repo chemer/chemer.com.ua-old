@@ -1,0 +1,64 @@
+/*
+    Author     : Chemer Sasha
+*/
+#menuID div.menuItem a, #menuID div.menuItem a:link, #menuID div.menuItem a:visited {
+	float: left;
+	display: block;
+	width: 233px;
+	height: 63px;
+	line-height: 56px;
+    vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #10404C;
+}
+#menuID div.menuItem a:hover {
+	background-image: url(../images/menuOver.png);
+	font-size: 25px;
+	color: white;
+}
+#menuID div.selectedMenuItem {
+	float: left;
+	display: block;
+	width: 233px;
+	height: 63px;
+	line-height: 56px;
+    vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #0E3F98;
+}
+
+#submenuID div.submenu a, #submenuID div.submenu a:link,#submenuID div.submenu a:visited{
+	display: block;
+	background-image: url(../images/subMenu.png);
+	width: 270px;
+	height: 39px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	line-height: 36px;
+    vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	font-size: 23px;
+	font-weight: normal;
+	color: #10404C;
+}
+#submenuID div.submenu a:hover{
+	display: block;
+	background-image: url(../images/subMenuOver.png);
+	width: 270px;
+	height: 39px;
+	line-height: 36px;
+    vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+}
+

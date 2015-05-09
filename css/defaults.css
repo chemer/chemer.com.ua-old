@@ -1,0 +1,151 @@
+/**
+ * @author Chemer
+ */
+
+html {
+	height: 100%;
+	position: relative; /* For Opera */
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #dadada;
+	height: 100%;
+    position: relative; /* For Opera */
+    margin:0px;
+    padding: 0px;
+	font-family: "Palatino Linotype";
+	font-style: italic; 
+	font-size: 18px;
+	color: #222222;
+	text-align: center;
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    border: 0px;
+}
+h1{
+	font-size: 26px;
+	color: #0E3F98; 
+}
+/******************************************************************************/
+
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    min-height:100%;
+    _height:100%; /*100% IE6 */
+	background-color: #ffffff;
+	width: 1022px;
+	min-width: 1022px;
+	text-align: left;
+    border-right: 1px #555555 solid;
+	border-left: 1px #555555 solid;
+}
+#hatID {
+	background-image: url(../images/hat.jpg);
+    background-repeat: no-repeat;
+	display: block;
+	width: 1022px;
+	height: 137px;	
+}
+#menuID {
+	background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+	display: block;
+	width: 872px;
+	_width: 872px;
+	height: 63px;
+	margin-top: -18px;
+	padding-left: 150px;
+	font-family: "Palatino Linotype";
+	font-style: italic;
+}
+#submenuID {
+	float: left;
+	display: block;
+	width: 270px;
+	height: auto;
+	font-family: "Palatino Linotype";
+	font-style: italic;
+	border-left: 1px #555555 solid;
+}
+#contentID {
+    display: inline-table;
+    width: 1022px;
+    min-width: 1022px;
+    padding-bottom: 46px;
+}
+#imageContent {
+	float: left;
+	background-image: url(../images/computerTable.png);
+    background-repeat: no-repeat;
+	height: 280px;
+	width: 320px;
+}
+#contactsImage {
+	float: left;
+	background-image: url(../images/contactsImage.jpg);
+    background-repeat: no-repeat;
+	height: 220px;
+	width: 200px;
+}
+#contentID .content {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+#footerID {
+    position:relative;
+	clear: both;
+	background-image: url(../images/footer.png);
+	background-color: #ffffff;
+	color: #ffffff;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 46px;
+	vertical-align: middle;
+	width: 1022px;
+	height: 46px;
+	margin-top: -46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/******************************************************************************/
+
+ul.index {
+	color: #222222;
+	list-style-image: url(../images/ul.png);
+}
+
+#contentID div.contacts {
+	padding-bottom: 10px;
+}
+#contentID div.contacts a, #contentID div.contacts a:link,#contentID div.contacts a:visited {
+	font-size: 20px;
+	font-weight: bold;
+	color: #234E5A;
+}
+#contentID div.contacts a:hover {
+	font-size: 20px;
+	color: #CACA98;
+}
+#contentID div.portfolioItem {
+	display: block;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0px 0px 20px 50px;
+	border: 1px #777777 solid;
+	border-radius: 5px 5px;
+}
+#contentID div.portfolioItem  :hover{
+	zoom: 1.007;
+}
+/******************************************************************************/
+div[contentEditable] {
+    border: 1px black solid;
+}
